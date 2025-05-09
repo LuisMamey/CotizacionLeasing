@@ -26,7 +26,7 @@ Cómo ejecutar la aplicación
 Clona este repositorio:
 
 git clone https://github.com/LuisMamey/CotizacionLeasing.git
-cd proyecto_trabajo
+cd CotizacionLeasing
 
 Restaurar paquetes y compilar:
 
