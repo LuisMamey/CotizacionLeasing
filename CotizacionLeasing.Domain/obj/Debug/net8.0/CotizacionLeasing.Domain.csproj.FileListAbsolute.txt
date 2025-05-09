@@ -1,0 +1,11 @@
+C:\Users\PC\Documents\dotnet\proyecto_trabajo\CotizacionLeasing.Domain\bin\Debug\net8.0\CotizacionLeasing.Domain.deps.json
+C:\Users\PC\Documents\dotnet\proyecto_trabajo\CotizacionLeasing.Domain\bin\Debug\net8.0\CotizacionLeasing.Domain.dll
+C:\Users\PC\Documents\dotnet\proyecto_trabajo\CotizacionLeasing.Domain\bin\Debug\net8.0\CotizacionLeasing.Domain.pdb
+C:\Users\PC\Documents\dotnet\proyecto_trabajo\CotizacionLeasing.Domain\obj\Debug\net8.0\CotizacionLeasing.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Documents\dotnet\proyecto_trabajo\CotizacionLeasing.Domain\obj\Debug\net8.0\CotizacionLeasing.Domain.AssemblyInfoInputs.cache
+C:\Users\PC\Documents\dotnet\proyecto_trabajo\CotizacionLeasing.Domain\obj\Debug\net8.0\CotizacionLeasing.Domain.AssemblyInfo.cs
+C:\Users\PC\Documents\dotnet\proyecto_trabajo\CotizacionLeasing.Domain\obj\Debug\net8.0\CotizacionLeasing.Domain.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\dotnet\proyecto_trabajo\CotizacionLeasing.Domain\obj\Debug\net8.0\CotizacionLeasing.Domain.dll
+C:\Users\PC\Documents\dotnet\proyecto_trabajo\CotizacionLeasing.Domain\obj\Debug\net8.0\refint\CotizacionLeasing.Domain.dll
+C:\Users\PC\Documents\dotnet\proyecto_trabajo\CotizacionLeasing.Domain\obj\Debug\net8.0\CotizacionLeasing.Domain.pdb
+C:\Users\PC\Documents\dotnet\proyecto_trabajo\CotizacionLeasing.Domain\obj\Debug\net8.0\ref\CotizacionLeasing.Domain.dll

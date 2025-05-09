@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CotizacionLeasing.Infrastructure/1.0.0": {
+        "dependencies": {
+          "CotizacionLeasing.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CotizacionLeasing.Infrastructure.dll": {}
+        }
+      },
+      "CotizacionLeasing.Domain/1.0.0": {
+        "runtime": {
+          "CotizacionLeasing.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CotizacionLeasing.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CotizacionLeasing.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

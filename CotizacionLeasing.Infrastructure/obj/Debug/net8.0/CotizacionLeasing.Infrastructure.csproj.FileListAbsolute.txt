@@ -1,0 +1,15 @@
+C:\Users\PC\Documents\dotnet\proyecto_trabajo\CotizacionLeasing.Infrastructure\bin\Debug\net8.0\CotizacionLeasing.Infrastructure.deps.json
+C:\Users\PC\Documents\dotnet\proyecto_trabajo\CotizacionLeasing.Infrastructure\bin\Debug\net8.0\CotizacionLeasing.Infrastructure.dll
+C:\Users\PC\Documents\dotnet\proyecto_trabajo\CotizacionLeasing.Infrastructure\bin\Debug\net8.0\CotizacionLeasing.Infrastructure.pdb
+C:\Users\PC\Documents\dotnet\proyecto_trabajo\CotizacionLeasing.Infrastructure\bin\Debug\net8.0\CotizacionLeasing.Domain.dll
+C:\Users\PC\Documents\dotnet\proyecto_trabajo\CotizacionLeasing.Infrastructure\bin\Debug\net8.0\CotizacionLeasing.Domain.pdb
+C:\Users\PC\Documents\dotnet\proyecto_trabajo\CotizacionLeasing.Infrastructure\obj\Debug\net8.0\CotizacionLeasing.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\PC\Documents\dotnet\proyecto_trabajo\CotizacionLeasing.Infrastructure\obj\Debug\net8.0\CotizacionLeasing.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Documents\dotnet\proyecto_trabajo\CotizacionLeasing.Infrastructure\obj\Debug\net8.0\CotizacionLeasing.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\PC\Documents\dotnet\proyecto_trabajo\CotizacionLeasing.Infrastructure\obj\Debug\net8.0\CotizacionLeasing.Infrastructure.AssemblyInfo.cs
+C:\Users\PC\Documents\dotnet\proyecto_trabajo\CotizacionLeasing.Infrastructure\obj\Debug\net8.0\CotizacionLeasing.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\dotnet\proyecto_trabajo\CotizacionLeasing.Infrastructure\obj\Debug\net8.0\Cotizaci.654F720F.Up2Date
+C:\Users\PC\Documents\dotnet\proyecto_trabajo\CotizacionLeasing.Infrastructure\obj\Debug\net8.0\CotizacionLeasing.Infrastructure.dll
+C:\Users\PC\Documents\dotnet\proyecto_trabajo\CotizacionLeasing.Infrastructure\obj\Debug\net8.0\refint\CotizacionLeasing.Infrastructure.dll
+C:\Users\PC\Documents\dotnet\proyecto_trabajo\CotizacionLeasing.Infrastructure\obj\Debug\net8.0\CotizacionLeasing.Infrastructure.pdb
+C:\Users\PC\Documents\dotnet\proyecto_trabajo\CotizacionLeasing.Infrastructure\obj\Debug\net8.0\ref\CotizacionLeasing.Infrastructure.dll
