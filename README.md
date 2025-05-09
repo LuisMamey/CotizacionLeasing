@@ -4,7 +4,7 @@ Este repositorio contiene la solución CotizacionLeasing, implementada con Onion
 
 Estructura de carpetas
 
-proyecto_trabajo/
+CotizacionLeasing/
 ├── CotizacionLeasing.sln
 ├── CotizacionLeasing.Domain/         # Entidades y reglas de negocio
 ├── CotizacionLeasing.Application/    # DTOs, validación y servicios de aplicación
@@ -25,7 +25,7 @@ Cómo ejecutar la aplicación
 
 Clona este repositorio:
 
-git clone <url-del-repositorio>
+git clone https://github.com/LuisMamey/CotizacionLeasing.git
 cd proyecto_trabajo
 
 Restaurar paquetes y compilar:
