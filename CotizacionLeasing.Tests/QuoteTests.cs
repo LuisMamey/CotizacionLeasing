@@ -110,6 +110,21 @@ namespace CotizacionLeasing.Tests
         public void DownPaymentRuleGreater24MonthsViolation_ShouldThrowBusinessRuleException() =>
             Assert.Throws<BusinessRuleException>(() =>
                 new Quote(new Client("X"), 100_000m, 4_000m, 36, 10_000m, 0.1));
+
+        [Fact]
+        public void TotalPayment_ShouldBeMonthlyPaymentTimesTerm()
+        {
+            // Arrange
+            var term = 12;
+            var client = new Client("ACME");
+            var quote  = new Quote(client, 100_000m, 10_000m, term, 20_000m, 0.10);
+
+            // Act
+            var expected = quote.MonthlyPayment * term;
+
+            // Assert
+            Assert.Equal(expected, quote.TotalPayment);
+        }
     }
 
     public class QuoteServiceTests
@@ -174,6 +189,29 @@ namespace CotizacionLeasing.Tests
 
             Assert.Equal(2, results.Count);
             Assert.All(results, dto => Assert.Equal("X", dto.ClientName));
+        }
+
+        [Fact]
+        public void CalculateQuote_IncludesCorrectTotalPayment()
+        {
+            var repoMock = new Mock<IQuoteRepository>();
+            var service  = new QuoteService(repoMock.Object);
+
+            var dto = new QuoteRequestDto
+            {
+                ClientName  = "TestCo",
+                Price       = 80_000m,
+                DownPayment = 8_000m,
+                TermMonths  = 12,
+                Residual    = 16_000m,
+                AnnualRate  = 0.10
+            };
+
+            // Act
+            var result = service.CalculateQuote(dto);
+
+            // Assert
+            Assert.Equal(result.MonthlyPayment * dto.TermMonths, result.TotalPayment);
         }
     }
 

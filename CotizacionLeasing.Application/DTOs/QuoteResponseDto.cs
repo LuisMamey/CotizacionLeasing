@@ -21,5 +21,10 @@ namespace CotizacionLeasing.Application.DTOs
         /// Monto de la cuota mensual calculada.
         /// </summary>
         public decimal MonthlyPayment { get; set; }
+
+        /// <summary>
+        /// Monto total que pagara el cliente (cuota mensual * plazo en meses).
+        /// </summary>
+        public decimal TotalPayment { get; set; }
     }
 }

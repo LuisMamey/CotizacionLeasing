@@ -45,7 +45,7 @@ namespace CotizacionLeasing.API.Controllers
         /// </summary>
         /// <param name="request">DTO con los datos de la cotización: cliente, precio, enganche, plazo, residual y tasa.</param>
         /// <returns>
-        /// 200 OK con un QuoteResponseDto que incluye el Id generado y el monto de la cuota mensual,
+        /// 200 OK con un QuoteResponseDto que incluye el Id generado, el monto de la cuota mensual y pago total del contrato,
         /// o 400 BadRequest con los errores de validación.
         /// </returns>
         [HttpPost("calculate")]

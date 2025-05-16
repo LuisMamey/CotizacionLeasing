@@ -52,7 +52,8 @@ namespace CotizacionLeasing.Application.Services
             {
                 Id = quote.Id,
                 ClientName = client.Name,
-                MonthlyPayment = quote.MonthlyPayment
+                MonthlyPayment = quote.MonthlyPayment,
+                TotalPayment = quote.TotalPayment
             };
         }
 
@@ -89,7 +90,8 @@ namespace CotizacionLeasing.Application.Services
                 {
                     Id = q.Id,
                     ClientName = q.Client.Name,
-                    MonthlyPayment = q.MonthlyPayment
+                    MonthlyPayment = q.MonthlyPayment,
+                    TotalPayment = q.TotalPayment
                 });
         }
     }
