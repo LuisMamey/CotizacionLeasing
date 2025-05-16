@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\Documents\\dotnet\\proyecto_trabajo\\CotizacionLeasing.API\\CotizacionLeasing.API.csproj",
+      "projectUniqueName": "C:\\Users\\PC\\Documents\\dotnet\\CotizacionLeasing\\CotizacionLeasing.API\\CotizacionLeasing.API.csproj",
       "projectName": "CotizacionLeasing.API",
-      "projectPath": "C:\\Users\\PC\\Documents\\dotnet\\proyecto_trabajo\\CotizacionLeasing.API\\CotizacionLeasing.API.csproj",
+      "projectPath": "C:\\Users\\PC\\Documents\\dotnet\\CotizacionLeasing\\CotizacionLeasing.API\\CotizacionLeasing.API.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\Documents\\dotnet\\proyecto_trabajo\\CotizacionLeasing.API\\obj\\",
+      "outputPath": "C:\\Users\\PC\\Documents\\dotnet\\CotizacionLeasing\\CotizacionLeasing.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -689,11 +689,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\PC\\Documents\\dotnet\\proyecto_trabajo\\CotizacionLeasing.Application\\CotizacionLeasing.Application.csproj": {
-              "projectPath": "C:\\Users\\PC\\Documents\\dotnet\\proyecto_trabajo\\CotizacionLeasing.Application\\CotizacionLeasing.Application.csproj"
+            "C:\\Users\\PC\\Documents\\dotnet\\CotizacionLeasing\\CotizacionLeasing.Application\\CotizacionLeasing.Application.csproj": {
+              "projectPath": "C:\\Users\\PC\\Documents\\dotnet\\CotizacionLeasing\\CotizacionLeasing.Application\\CotizacionLeasing.Application.csproj"
             },
-            "C:\\Users\\PC\\Documents\\dotnet\\proyecto_trabajo\\CotizacionLeasing.Infrastructure\\CotizacionLeasing.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\PC\\Documents\\dotnet\\proyecto_trabajo\\CotizacionLeasing.Infrastructure\\CotizacionLeasing.Infrastructure.csproj"
+            "C:\\Users\\PC\\Documents\\dotnet\\CotizacionLeasing\\CotizacionLeasing.Infrastructure\\CotizacionLeasing.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\PC\\Documents\\dotnet\\CotizacionLeasing\\CotizacionLeasing.Infrastructure\\CotizacionLeasing.Infrastructure.csproj"
             }
           }
         }

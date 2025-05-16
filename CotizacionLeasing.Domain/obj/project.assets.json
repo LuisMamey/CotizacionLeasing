@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\Documents\\dotnet\\proyecto_trabajo\\CotizacionLeasing.Domain\\CotizacionLeasing.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\PC\\Documents\\dotnet\\CotizacionLeasing\\CotizacionLeasing.Domain\\CotizacionLeasing.Domain.csproj",
       "projectName": "CotizacionLeasing.Domain",
-      "projectPath": "C:\\Users\\PC\\Documents\\dotnet\\proyecto_trabajo\\CotizacionLeasing.Domain\\CotizacionLeasing.Domain.csproj",
+      "projectPath": "C:\\Users\\PC\\Documents\\dotnet\\CotizacionLeasing\\CotizacionLeasing.Domain\\CotizacionLeasing.Domain.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\Documents\\dotnet\\proyecto_trabajo\\CotizacionLeasing.Domain\\obj\\",
+      "outputPath": "C:\\Users\\PC\\Documents\\dotnet\\CotizacionLeasing\\CotizacionLeasing.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config"

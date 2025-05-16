@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CotizacionLeasing.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+953f2d75f16a4c93ce9a74dfcd5fa0cafb2ca610")]
 [assembly: System.Reflection.AssemblyProductAttribute("CotizacionLeasing.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CotizacionLeasing.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

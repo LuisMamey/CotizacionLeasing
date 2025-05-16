@@ -51,6 +51,12 @@ namespace CotizacionLeasing.Domain.Entities
         public decimal MonthlyPayment { get; }
 
         /// <summary>
+        /// Monto total que se pagara al final del contrato.
+        /// cuota mensual * plazo en meses.
+        /// </summary>
+        public decimal TotalPayment { get; }
+
+        /// <summary>
         /// Inicializa una nueva instancia de <see cref="Quote"/>, aplica
         /// las reglas de negocio y calcula la cuota mensual.
         /// </summary>
@@ -99,6 +105,9 @@ namespace CotizacionLeasing.Domain.Entities
 
             // Cálculo de la cuota mensual
             MonthlyPayment = CalculateMonthlyPayment();
+
+            //Calculo del pago total a lo largo de todo el plazo
+            TotalPayment = MonthlyPayment * TermMonths;
         }
 
         /// <summary>
