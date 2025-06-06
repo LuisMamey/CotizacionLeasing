@@ -33,17 +33,17 @@ namespace CotizacionLeasing.Application.Validators
                 .When(x => x.TermMonths == 12)
                 .WithMessage("Para 12 meses, enganche mínimo de 10%.");
 
-            // 4b. Enganche mínimo 7.5% para 13–23 meses
+            // 4b. Enganche mínimo 7.5% para 13–24 meses
             RuleFor(x => x.DownPayment)
                 .GreaterThanOrEqualTo(x => x.Price * 0.075m)
-                .When(x => x.TermMonths >= 13 && x.TermMonths <= 23)
-                .WithMessage("Para 13–23 meses, enganche mínimo de 7.5%.");
+                .When(x => x.TermMonths >= 13 && x.TermMonths <= 24)
+                .WithMessage("Para 13–24 meses, enganche mínimo de 7.5%.");
 
-            // 4c. Enganche mínimo 5% para más de 24 meses
+            // 4c. Enganche mínimo 5% para 25 meses o más
             RuleFor(x => x.DownPayment)
                 .GreaterThanOrEqualTo(x => x.Price * 0.05m)
-                .When(x => x.TermMonths > 24)
-                .WithMessage("Para más de 24 meses, enganche mínimo de 5%.");
+                .When(x => x.TermMonths >= 25)
+                .WithMessage("Para 25 meses o más, enganche mínimo de 5%.");
 
             // 5. Plazo en meses > 0
             RuleFor(x => x.TermMonths)
