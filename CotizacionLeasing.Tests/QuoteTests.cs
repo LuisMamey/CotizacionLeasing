@@ -56,8 +56,8 @@ namespace CotizacionLeasing.Tests
 
         [Theory]
         [InlineData(12, 9000.0, "Para 12 meses")]
-        [InlineData(18, 7000.0, "Para 13–23 meses")]
-        [InlineData(36, 4000.0, "Para más de 24 meses")]
+        [InlineData(18, 7000.0, "Para 13–24 meses")]
+        [InlineData(36, 4000.0, "Para 25 meses o más")]
         public void DownPaymentTooLow_ShouldHaveValidationError(int term, double dpDouble, string containsMsg)
         {
             // Convertimos el double a decimal para construir el DTO
@@ -102,12 +102,12 @@ namespace CotizacionLeasing.Tests
                 new Quote(new Client("X"), 100_000m, 5_000m, 12, 10_000m, 0.1));
 
         [Fact]
-        public void DownPaymentRule13To23MonthsViolation_ShouldThrowBusinessRuleException() =>
+        public void DownPaymentRule13To24MonthsViolation_ShouldThrowBusinessRuleException() =>
             Assert.Throws<BusinessRuleException>(() =>
                 new Quote(new Client("X"), 100_000m, 6_000m, 18, 10_000m, 0.1));
 
         [Fact]
-        public void DownPaymentRuleGreater24MonthsViolation_ShouldThrowBusinessRuleException() =>
+        public void DownPaymentRuleGreaterOrEqual25MonthsViolation_ShouldThrowBusinessRuleException() =>
             Assert.Throws<BusinessRuleException>(() =>
                 new Quote(new Client("X"), 100_000m, 4_000m, 36, 10_000m, 0.1));
 

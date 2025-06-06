@@ -71,8 +71,8 @@ namespace CotizacionLeasing.Domain.Entities
         /// - Residual > 30% del precio.
         /// - Enganche mínimo no alcanzado según el plazo:
         ///   * 12 meses → ≥ 10%
-        ///   * 13–23 meses → ≥ 7.5%
-        ///   * > 24 meses → ≥ 5%
+        ///   * 13–24 meses → ≥ 7.5%
+        ///   * ≥ 25 meses  → ≥ 5%
         /// </exception>
         public Quote(
             Client client,
@@ -89,10 +89,10 @@ namespace CotizacionLeasing.Domain.Entities
             // 2. Validar enganche mínimo según plazo
             if (termMonths == 12 && downPayment < price * 0.10m)
                 throw new BusinessRuleException("Para 12 meses, enganche mínimo de 10%.");
-            if (termMonths is >= 13 and <= 23 && downPayment < price * 0.075m)
-                throw new BusinessRuleException("Para 13–23 meses, enganche mínimo de 7.5%.");
-            if (termMonths > 24 && downPayment < price * 0.05m)
-                throw new BusinessRuleException("Para más de 24 meses, enganche mínimo de 5%.");
+            if (termMonths is >= 13 and <= 24 && downPayment < price * 0.075m)
+                throw new BusinessRuleException("Para 13–24 meses, enganche mínimo de 7.5%.");
+            if (termMonths >= 25 && downPayment < price * 0.05m)
+                throw new BusinessRuleException("Para 25 meses o más, enganche mínimo de 5%.");
 
             // Asignación de propiedades
             Id             = Guid.NewGuid();
